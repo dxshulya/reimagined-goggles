@@ -12,7 +12,7 @@ function Main() {
         <MainLayout>
             <div className="mainPage">
                 <div className="mainPage__body">
-
+                    Привет
                 </div>
             </div>
         </MainLayout>

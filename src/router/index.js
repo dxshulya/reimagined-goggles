@@ -7,7 +7,7 @@ import {Main} from "../page";
 function MainRoute() {
     return (
         <Routes>
-            <Route exact path={MAIN_LINK} component={Main}/>
+            <Route exact path={MAIN_LINK} element={<Main />}/>
         </Routes>
     );
 }

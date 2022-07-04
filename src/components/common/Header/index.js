@@ -18,18 +18,18 @@ function Header() {
           height="50"
         />
         <div className="menu">
-          <NavLink>
-            Главная
-          </NavLink>
-          <NavLink>
-            Теория
-          </NavLink>
-          <NavLink>
-            Тесты
-          </NavLink>
-          <NavLink>
-            Блог
-          </NavLink>
+          {/*<NavLink>*/}
+          {/*  Главная*/}
+          {/*</NavLink>*/}
+          {/*<NavLink>*/}
+          {/*  Теория*/}
+          {/*</NavLink>*/}
+          {/*<NavLink>*/}
+          {/*  Тесты*/}
+          {/*</NavLink>*/}
+          {/*<NavLink>*/}
+          {/*  Блог*/}
+          {/*</NavLink>*/}
         </div>
       </div>
     </header>

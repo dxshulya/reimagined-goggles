@@ -27,10 +27,10 @@ function Header() {
 
                         <button className="cart_btn">
                             <div className="cart_btn__wrapper">
-                                <img src={Icon} className="icon"></img>
-                                <div className="cart_text">Cart</div>
-                                <div className= "oval">
-                                    <div className= "oval__counter">0</div>
+                                <img src={Icon} className="cart_btn__icon"></img>
+                                <div className="cart_btn__text">Cart</div>
+                                <div className= "cart_btn__oval">
+                                    <div className= "cart_btn__oval__counter">0</div>
                                 </div>
                             </div>
 

@@ -25,12 +25,12 @@
 
   .menu {
     display: flex;
-    gap: 90px;
+    //gap: 90px;
 
     &__wrapper {
       position: relative;
       display: flex;
-      width: 802px;
+      width: 826px;
       height: 59px;
       margin-left: 238px;
       align-items: center;
@@ -85,39 +85,41 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
     }
 
-  }
-  .cart_text{
-    height: 23px;
+    &__icon {
+      padding: 13px 8px 14px 18px;
+    }
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #FFFFFF;
-  }
-
-  .oval {
-    background: #FFFFFF;
-    border-radius: 9px;
-    width: 20px;
-    height: 18px;
-    align-items: center;
-    justify-content: center;
-
-    &__counter {
-      width: 8px;
-      height: 18px;
+    &__text {
+      padding-right: 8px;
+      height: 23px;
 
       font-family: Poppins;
       font-style: normal;
       font-weight: 400;
-      font-size: 11px;
-      line-height: 18px;
-      text-align: center;
-      color: #575445;
+      font-size: 16px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+
+    &__oval {
+      height: 18px;
+      width: 20px;
+      background: #FFFFFF;
+      border-radius: 9px;
+      margin-right: 18px;
+      &__counter {
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        text-align: center;
+        color: #575445;
+      }
     }
   }
 }

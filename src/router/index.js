@@ -1,5 +1,5 @@
 import React from "react";
-import {Routes, Route} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 
 import {MAIN_LINK} from "./links";
 import {Main} from "../page";
@@ -13,3 +13,4 @@ function MainRoute() {
 }
 
 export default MainRoute;
+

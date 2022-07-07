@@ -258,9 +258,13 @@ function Main() {
                                                 <div className="guide__body__blog__item__text__person__profile">
                                                     <img src={Photo1}
                                                          className="guide__body__blog__item__text__person__profile__photo"/>
-                                                    <p className="guide__body__blog__item__text__person__profile__name">Alex
-                                                        Jenna</p>
-                                                    <p className="guide__body__blog__item__text__person__profile__profession">QA</p>
+                                                    <div
+                                                        className="guide__body__blog__item__text__person__profile__columnBlock">
+                                                        <p className="guide__body__blog__item__text__person__profile__columnBlock__name">Alex
+                                                            Jenna</p>
+                                                        <p className="guide__body__blog__item__text__person__profile__columnBlock__profession">QA</p>
+                                                    </div>
+
                                                 </div>
                                                 <p className="guide__body__blog__item__text__person__date">October 18,
                                                     2021</p>
@@ -277,10 +281,13 @@ function Main() {
                                                 <div className="guide__body__blog__item__text__person__profile">
                                                     <img src={Photo2}
                                                          className="guide__body__blog__item__text__person__profile__photo"/>
-                                                    <p className="guide__body__blog__item__text__person__profile__name">Woodie
-                                                        Brandon</p>
-                                                    <p className="guide__body__blog__item__text__person__profile__profession">Product
-                                                        Designer</p>
+                                                    <div
+                                                        className="guide__body__blog__item__text__person__profile__columnBlock">
+                                                        <p className="guide__body__blog__item__text__person__profile__columnBlock__name">Woodie
+                                                            Brandon</p>
+                                                        <p className="guide__body__blog__item__text__person__profile__columnBlock__profession">Product
+                                                            Designer</p>
+                                                    </div>
                                                 </div>
                                                 <p className="guide__body__blog__item__text__person__date">October 18,
                                                     2021</p>
@@ -293,6 +300,14 @@ function Main() {
                                     <img className="guide__body__link__icon" src={Arrow}/>
                                 </div>
                             </div>
+                        </div>
+
+                        <div className="reading">
+                            <div className="reading__body">
+                                <div className="reading__body"></div>
+                                <div className="reading__body"></div>
+                            </div>
+
                         </div>
 
                     </div>

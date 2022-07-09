@@ -30,6 +30,8 @@ import Pic11 from "../../img/pic11.png";
 import Photo1 from "../../img/photo1.png";
 import Photo2 from "../../img/photo2.png";
 
+import Pic12 from "../../img/pic12.png";
+
 
 import "./style.scss";
 
@@ -304,8 +306,19 @@ function Main() {
 
                         <div className="reading">
                             <div className="reading__body">
-                                <div className="reading__body"></div>
-                                <div className="reading__body"></div>
+                                <img className="reading__body__picture" src={Pic12}/>
+                                <div className="reading__body__text">
+                                    <p className="reading__body__text__title">Some light reading</p>
+                                    <p className="reading__body__text__subtitle">Subscribe to our magazine today.</p>
+                                    <p className="reading__body__text__text">We are an outdoor gear company focused on
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque
+                                        aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi
+                                        neque ex, condimentum dapibus congue et.</p>
+                                    <div className="reading__body__text__link">
+                                        <p className="reading__body__text__link__text">Read more</p>
+                                        <img className="reading__body__text__link__icon" src={Arrow}/>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
